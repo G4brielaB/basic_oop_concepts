@@ -3,6 +3,7 @@ package classes;
 public class Account implements Transaction{
     private int id;
     private double balance;
+    private String local;
 
     public Account(int id, double balance) {
         this.id = id;
